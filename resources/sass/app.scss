@@ -1,0 +1,161 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.group:before, 
+.group:after {
+    content: " "; 
+    display: table; 
+}
+
+
+.group:after {
+    clear: both;
+}
+
+
+.group {
+    *zoom: 1;
+}
+
+
+.app-header {
+	margin-top:0.5em;
+	text-align:center;
+}
+
+.customer-table {
+	width:100%;
+	td {
+		padding-top:0.8em;
+	}
+	
+}
+
+.top-gap {
+	margin-top:1em;
+}
+
+.center {
+	margin:auto;
+}
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+
+.add-customer {
+	margin-top:2em;
+	margin-right:3.7em;
+}
+
+.add-customer-button {
+	margin-left:1em;
+	background-color:#24a0ed;
+	color:#fff;
+	padding:0.5em 1em;
+	border-radius:0.3em;
+}
+.add-customer-button:hover {
+	text-decoration:none;
+	color:#fff;
+}
+
+.customer-button {
+	border:none;
+	color:#fff;
+	padding:0.3em 1em;
+	border-radius:0.3em;
+}
+
+.update {
+	background-color:#82B541;
+}
+
+.delete {
+	background-color:#D11A2A;
+	margin-left:0.3em;
+}
+
+.customer-button:hover {
+	text-decoration:none;
+	color:#fff;
+}
+
+.info-wrapper {
+	margin-bottom:1em;
+}
+
+body {
+	background-color:#0c1923;
+	color:silver;
+}
+
+.left-gap {
+	margin-left:1em;
+}
+.empty-content {
+	margin-top:2em;
+	font-size:2em;
+}
+.new-customer-form {
+	font-size:1.5em;
+}
+.delete-customer {
+	display:inline;
+}
+
+.name_validation, .country_validation, .email_validation, .number_validation, .birthday_validation {
+	color:#D11A2A;
+}
+
+a {
+	color:#fff;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+
+.page-link {
+	border:none;
+	background-color:#732626;
+}
+
+.page-item.active .page-link {
+	border:none;
+	background-color:#2A0F0E;
+}
+
+.page-item.disabled .page-link {
+	background-color:#732626;
+}
+
+.page-item .page-link {
+	color:#fff;
+}
+.page-link:hover {
+	background-color:#D11A2A;
+}
+ul.pagination {
+	margin-top:1em;
+}
+
+.alert-success {
+	background-color:#82B541;
+	color:#fff;
+	border:none;
+}
+
+.right-gap {
+	margin-right:1em;
+}
